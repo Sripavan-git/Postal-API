@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<body>
+
+    <h1 class="text-center"> Getting data of Postal Codes</h1>
+
+    <div class="container">
+
+        <input type="text" id="postalCode" placeholder="Enter a Postal Code">
+        <button onclick="getData()">Search</button>
+
+        <table class="table table-bordered">
+            <thead class="table-dark">
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+                <th scope="col">BranchType</th>
+                <th scope="col">DeliveryStatus</th>
+                <th scope="col">Circle</th>
+                <th scope="col">District</th>
+                <th scope="col">Division</th>
+                <th scope="col">Region</th>
+                <th scope="col">Block</th>
+                <th scope="col">State</th>
+                <th scope="col">Country</th>
+                <th scope="col">Pincode</th>
+              </tr>
+            </thead>
+            <tbody id="tableBody">
+              
+            </tbody>
+          </table>
+    </div>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
